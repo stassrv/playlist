@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body{
+	font: 300 16px/1.2 "Roboto", sans-serif;
+	color: #574d72;
+	background: url(https://alexcss.github.io/playlist/img/816831.jpg) 50%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1200px;
+    padding: 50px 20px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-play{
+	background-color: #fff;
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+    padding: 30px 20px;
+    max-width: 400px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.ba-playlist__list{
+	margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+.ba-playlist{
+	border-top: 1px solid #e4e2e2;
+	padding-top: 10px;
+    margin-top: 10px;
+}
+
+.ba-spaceman__name{
+	margin: 0;
+	color: rgba(255,0,0,0.5)
+}
+
+.ba-playlist__top{
+	font-size: 80%;
+    margin-bottom: 5px;
+    color: #a4a3a9;
+}
+
+.ba-playlist__song{
+	font-weight: 500;
+}
+
+.ba-title{
+	text-align: center;
+    font-weight: 500;
+    margin: 0 0 25px;
+}
+
+.ba-title b{
+	color: #fff;
+}
+
+.ba-playlist__like{
+	margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    fill: #ed5e75;
+    cursor: pointer;
+}
+
+.ba-playlist__author{
+	text-transform: capitalize;
+}
+
+.ba-playlist__duration{
+	display: inline-block;
+    padding-right: 10px;
+    margin-right: 6px;
+    border-right: 1px solid rgba(164, 163, 169, 0.6);
+}
+
+.ba-playlist__song::first-letter {
+    text-transform: uppercase;
+}
